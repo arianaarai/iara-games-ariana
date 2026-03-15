@@ -94,6 +94,7 @@ h3,
   margin: 0 8px;
   position: relative;
   top: -3px;
+  transform: rotate(-12deg);
 }
 
 .nav {
@@ -185,10 +186,11 @@ h3,
 }
 
 .hero-titulo-icon {
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   display: block;
   flex-shrink: 0;
+  transform: rotate(-12deg);
 }
 
 .hero-subtitulo {
@@ -446,6 +448,11 @@ h3,
 .footer-nav a:hover,
 .footer-nav a:focus {
   color: var(--cor-highlight);
+}
+
+.footer-sep {
+  margin: 0 8px;
+  color: rgba(245, 247, 247, 0.5);
 }
 
 /* Layout responsivo */
