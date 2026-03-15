@@ -21,8 +21,7 @@ a {
 }
 
 a:focus {
-  outline: 2px solid var(--cor-destaque);
-  outline-offset: 2px;
+  outline: none;
 }
 
 body {
@@ -177,7 +176,7 @@ h3,
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 0 8px;
+  gap: 0 16px;
   font-size: 36px;
   margin-bottom: 16px;
   color: var(--cor-texto);
@@ -219,8 +218,7 @@ h3,
 }
 
 .hero-cta:focus {
-  outline: 2px solid var(--cor-texto);
-  outline-offset: 2px;
+  outline: none;
 }
 
 /* Inspirado na lenda da Iara */
@@ -343,8 +341,7 @@ h3,
 }
 
 .card-jogo-link:focus {
-  outline: 2px solid var(--cor-destaque);
-  outline-offset: 2px;
+  outline: none;
 }
 
 /* Main */
@@ -389,8 +386,7 @@ h3,
 }
 
 .nav .entrar:focus {
-  outline: 2px solid var(--cor-texto);
-  outline-offset: 2px;
+  outline: none;
 }
 
 /* Footer */
