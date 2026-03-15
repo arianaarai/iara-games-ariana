@@ -4,7 +4,7 @@ Plataforma de jogos independentes brasileiros. Projeto desenvolvido para a FIAP 
 
 ## Contexto e proposta
 
-A Iara Games é uma plataforma exclusiva para compra e venda de jogos desenvolvidos por criadores brasileiros. O projeto tem como diferencial focar apenas em jogos nacionais, oferecendo um espaço dedicado para desenvolvedores independentes e pequenas empresas do Brasil. O público-alvo são jogadores brasileiros que buscam descobrir e apoiar a produção nacional de games. Na versão piloto, os jogos são para download e instalação local, sem cloud gaming.
+A Iara Games é uma plataforma focada na venda e divulgação de jogos independentes brasileiros. A ideia é criar um espaço dedicado para desenvolvedores nacionais publicarem seus jogos e para jogadores descobrirem produções feitas no Brasil.
 
 O nome faz referência à Iara, entidade do folclore brasileiro (mãe-d'água), conectando a identidade nacional à proposta da plataforma.
 
@@ -32,7 +32,7 @@ Paleta **análoga** (verde + azul + turquesa), alinhada ao Cap. 6: cores frias q
 
 | Uso              | Cor                   | HEX       | Justificativa                                                                                           |
 | ---------------- | --------------------- | --------- | ------------------------------------------------------------------------------------------------------- |
-| Fundo principal  | Azul petróleo         | `#0F2A2E` | Remete a águas profundas e floresta tropical; fundo escuro que transmite serenidade e profissionalismo. |
+| Fundo principal  | Azul petróleo         | `#0F2A2E` | Representa a água e a natureza, conectando com a lenda da Iara. |
 | Fundo secundário | Verde floresta escuro | `#1E3D3F` | Transição para o verde; reforça a conexão com natureza brasileira e folclore.                           |
 | Cor destaque     | Verde água            | `#2EC4B6` | Verde-água associado à Iara (mãe-d'água); usada em botões, links, bordas e destaques.                   |
 | Highlight        | Roxo                  | `#A855F7` | Contraste para hovers e links; destaque em menus.                                                       |
@@ -60,7 +60,7 @@ Paleta **análoga** (verde + azul + turquesa), alinhada ao Cap. 6: cores frias q
 
 ## Tecnologias
 
-Nesta sprint foi desenvolvida apenas uma versão estática da home page utilizando HTML e CSS, sem JavaScript ou integração com back-end.
+Durante o desenvolvimento desta sprint, o objetivo do grupo foi criar uma primeira visão da plataforma, focando principalmente na identidade visual e organização da home page. Como esta é apenas a versão inicial do projeto, optamos por uma estrutura simples em HTML e CSS, que poderá evoluir nas próximas sprints com novas funcionalidades.
 
 - HTML5
 - CSS3
