@@ -24,9 +24,9 @@ Paleta **análoga** (verde + azul + turquesa), alinhada ao Cap. 6: cores frias q
 | ---------------- | --------------------- | --------- | ------------- |
 | Fundo principal  | Azul petróleo         | `#0F2A2E` | Remete a águas profundas e floresta tropical; fundo escuro que transmite serenidade e profissionalismo. |
 | Fundo secundário | Verde floresta escuro | `#1E3D3F` | Transição para o verde; reforça a conexão com natureza brasileira e folclore. |
-| Cor destaque     | Verde água            | `#2EC4B6` | Verde-água associado à Iara (mãe-d'água); usada em CTAs, bordas e destaques. |
-| Highlight        | Roxo                  | `#A855F7` | Contraste para hovers e links; destaque em menus e CTAs. |
-| Texto            | Branco                | `#F5F7F7` | Contraste adequado para legibilidade (WCAG); cor neutra sobre fundos escuros. |
+| Cor destaque     | Verde água            | `#2EC4B6` | Verde-água associado à Iara (mãe-d'água); usada em botões, links, bordas e destaques. |
+| Highlight        | Roxo                  | `#A855F7` | Contraste para hovers e links; destaque em menus. |
+| Texto            | Branco                | `#F5F7F7` | Contraste adequado para legibilidade; cor neutra sobre fundos escuros. |
 
 **Onde cada cor é usada:** header/footer (fundo secundário), body (gradiente fundo principal → secundário), botões e links (destaque/highlight), cards (bordas destaque), texto geral (cor texto).
 
@@ -51,7 +51,7 @@ Paleta **análoga** (verde + azul + turquesa), alinhada ao Cap. 6: cores frias q
 ## Tecnologias
 
 - HTML5
-- CSS3 (variáveis `:root`, gradientes, flexbox, media queries)
+- CSS3
 - Font Awesome (ícones nos cards)
 - Vídeo em background (hero)
 
@@ -93,7 +93,3 @@ Paleta **análoga** (verde + azul + turquesa), alinhada ao Cap. 6: cores frias q
 - **Semântica e `alt`** – Uso de header, nav, main, section, article, footer; `alt` descritivo em todas as imagens.
 - **Foco visível** – Outline em todos os links ao navegar por teclado (`:focus` com cor de destaque), permitindo uso sem mouse.
 
-## Entrega (Sprint 01)
-
-- [ ] Repositório público no GitHub
-- [ ] PDF na FIAP ON com contexto, justificativas e link do repositório
