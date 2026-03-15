@@ -8,11 +8,21 @@ A Iara Games é uma plataforma exclusiva para compra e venda de jogos desenvolvi
 
 O nome faz referência à Iara, entidade do folclore brasileiro (mãe-d'água), conectando a identidade nacional à proposta da plataforma.
 
-## Referências
+## Pesquisa de plataformas
 
-- **Steam** – Interface organizada, destaque para jogos em promoção, cards com imagens e informações claras.
-- **GOG** – Foco em jogos independentes, design limpo.
-- **Nuuvem** – Plataforma brasileira, linguagem próxima ao público local.
+Foram analisadas três plataformas de distribuição de jogos como referência de mercado:
+
+### Steam
+
+Maior plataforma de distribuição digital de jogos do mundo. Utiliza destaque visual forte para jogos em promoção e recomendações personalizadas.
+
+### GOG
+
+Plataforma conhecida por vender jogos sem DRM e valorizar jogos independentes. Possui interface limpa e foco em descoberta de títulos.
+
+### Nuuvem
+
+Plataforma brasileira de venda de jogos digitais. Inspirou a linguagem visual voltada ao público nacional.
 
 ## Design
 
@@ -20,13 +30,13 @@ O nome faz referência à Iara, entidade do folclore brasileiro (mãe-d'água), 
 
 Paleta **análoga** (verde + azul + turquesa), alinhada ao Cap. 6: cores frias que remetem a calma e confiança, e à identidade da Iara (mãe-d'água, natureza brasileira).
 
-| Uso              | Cor                   | HEX       | Justificativa |
-| ---------------- | --------------------- | --------- | ------------- |
+| Uso              | Cor                   | HEX       | Justificativa                                                                                           |
+| ---------------- | --------------------- | --------- | ------------------------------------------------------------------------------------------------------- |
 | Fundo principal  | Azul petróleo         | `#0F2A2E` | Remete a águas profundas e floresta tropical; fundo escuro que transmite serenidade e profissionalismo. |
-| Fundo secundário | Verde floresta escuro | `#1E3D3F` | Transição para o verde; reforça a conexão com natureza brasileira e folclore. |
-| Cor destaque     | Verde água            | `#2EC4B6` | Verde-água associado à Iara (mãe-d'água); usada em botões, links, bordas e destaques. |
-| Highlight        | Roxo                  | `#A855F7` | Contraste para hovers e links; destaque em menus. |
-| Texto            | Branco                | `#F5F7F7` | Contraste adequado para legibilidade; cor neutra sobre fundos escuros. |
+| Fundo secundário | Verde floresta escuro | `#1E3D3F` | Transição para o verde; reforça a conexão com natureza brasileira e folclore.                           |
+| Cor destaque     | Verde água            | `#2EC4B6` | Verde-água associado à Iara (mãe-d'água); usada em botões, links, bordas e destaques.                   |
+| Highlight        | Roxo                  | `#A855F7` | Contraste para hovers e links; destaque em menus.                                                       |
+| Texto            | Branco                | `#F5F7F7` | Contraste adequado para legibilidade; cor neutra sobre fundos escuros.                                  |
 
 **Onde cada cor é usada:** header/footer (fundo secundário), body (gradiente fundo principal → secundário), botões e links (destaque/highlight), cards (bordas destaque), texto geral (cor texto).
 
@@ -39,7 +49,7 @@ Paleta **análoga** (verde + azul + turquesa), alinhada ao Cap. 6: cores frias q
 
 1. **Bordas arredondadas** (8px em botões, 12px em cards) – Deixam a interface mais amigável e contemporânea, sem parecer rígida.
 2. **Ícones nos cards** (Font Awesome) – Ícones de gênero (bússola, carro, xadrez) reforçam a informação sem depender só de texto; ajudam daltônicos e leitura rápida.
-3. **Padrão de cards** – Altura fixa na imagem (160px), borda com cor destaque e hover em roxo; organização visual consistente para facilitar a comparação entre jogos.
+3. **Padrão de cards** – Altura fixa na imagem, borda com cor destaque e hover em roxo; organização visual consistente para facilitar a comparação entre jogos. Cards foram utilizados para exibir jogos porque facilitam a comparação rápida entre títulos, permitindo visualizar imagem, gênero e ação principal de forma organizada.
 
 ### Funcionalidades da home
 
@@ -49,6 +59,8 @@ Paleta **análoga** (verde + azul + turquesa), alinhada ao Cap. 6: cores frias q
 - **Footer** com links para Contato e Suporte
 
 ## Tecnologias
+
+Nesta sprint foi desenvolvida apenas uma versão estática da home page utilizando HTML e CSS, sem JavaScript ou integração com back-end.
 
 - HTML5
 - CSS3
@@ -92,4 +104,3 @@ Paleta **análoga** (verde + azul + turquesa), alinhada ao Cap. 6: cores frias q
 - **Contraste** – Texto branco sobre fundos escuros; cores em conformidade com WCAG para legibilidade.
 - **Semântica e `alt`** – Uso de header, nav, main, section, article, footer; `alt` descritivo em todas as imagens.
 - **Foco visível** – Outline em todos os links ao navegar por teclado (`:focus` com cor de destaque), permitindo uso sem mouse.
-
